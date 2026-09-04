@@ -2,7 +2,7 @@ name: Docker Release
 
 on:
   push:
-    branches: [main, master]
+    branches: [master]
   workflow_dispatch:
 
 env:
@@ -18,16 +18,15 @@ jobs:
     steps:
       - uses: actions/checkout@v7
 
-      - uses: actions/setup-node@v4
+      - uses: oven-sh/setup-bun@v2
         with:
-          node-version: 22
-          cache: npm
+          bun-version: latest
 
       - name: Install dependencies
-        run: npm ci
+        run: bun install --frozen-lockfile
 
-      - name: Build static site
-        run: CI=false npm run build
+      - name: Build with Vite
+        run: bun run build
 
       - uses: docker/setup-buildx-action@v4
 
