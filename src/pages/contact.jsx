@@ -1,5 +1,5 @@
 import React, { useEffect } from "react";
-import { Helmet } from "react-helmet";
+import Seo from "../components/Seo";
 
 import NavBar from "../components/common/navBar";
 import Footer from "../components/common/footer";
@@ -20,14 +20,7 @@ const Contact = () => {
 
 	return (
 		<React.Fragment>
-			<Helmet>
-				<title>{`Contact | ${INFO.main.title}`}</title>
-				<meta name="description" content={currentSEO.description} />
-				<meta
-					name="keywords"
-					content={currentSEO.keywords.join(", ")}
-				/>
-			</Helmet>
+			<Seo title={INFO.main.title + " | Contact"} description={currentSEO.description} keywords={currentSEO.keywords.join(", ")} />
 
 			<div className="page-content">
 				<NavBar active="contact" />

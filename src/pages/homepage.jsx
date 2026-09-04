@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from "react";
-import { Helmet } from "react-helmet";
+import Seo from "../components/Seo";
 
 import { faMailBulk } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
@@ -70,14 +70,7 @@ const Homepage = () => {
 
 	return (
 		<React.Fragment>
-			<Helmet>
-				<title>{INFO.main.title}</title>
-				<meta name="description" content={currentSEO.description} />
-				<meta
-					name="keywords"
-					content={currentSEO.keywords.join(", ")}
-				/>
-			</Helmet>
+			<Seo title={INFO.main.title} description={currentSEO.description} keywords={currentSEO.keywords.join(", ")} />
 
 			<div className="page-content">
 				<NavBar active="home" />
