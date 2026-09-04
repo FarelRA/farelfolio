@@ -12,7 +12,7 @@
 }
 
 .project:hover {
-	background: #fafafa;
+	background: var(--bg-surface);
 	opacity: 1;
 	transition: background-color 0.3s ease-in-out;
 }
@@ -32,6 +32,12 @@
 
 .project-logo img {
 	width: 100%;
+}
+
+.project-logo-icon {
+	font-size: 32px;
+	line-height: 1;
+	color: var(--tertiary-color);
 }
 
 .project-title {
@@ -63,10 +69,4 @@
 .project-link-text {
 	padding-left: 20px;
 	font-weight: 700;
-}
-
-@media (max-width: 600px) {
-	.project {
-		height: 300px;
-	}
 }

@@ -1,6 +1,8 @@
 import React from "react";
 import { Link } from "react-router-dom";
 
+import Logo from "./logo";
+
 import "./styles/navBar.css";
 
 const NavBar = (props) => {
@@ -12,6 +14,9 @@ const NavBar = (props) => {
 				<nav className="navbar">
 					<div className="nav-background">
 						<ul className="nav-list">
+							<li className="nav-logo-item">
+								<Logo width={24} />
+							</li>
 							<li
 								className={
 									active === "home"

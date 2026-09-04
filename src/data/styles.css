@@ -1,14 +1,18 @@
 :root {
 	/* ------- colors ------- */
-	--primary-color: #27272a;
-	--secondary-color: #65656d;
-	--tertiary-color: #acacb4;
-	--quaternary-color: #e4e4e7;
-	--link-color: #14b8a6;
+	--primary-color: #e2e8f0;
+	--secondary-color: #94a3b8;
+	--tertiary-color: #64748b;
+	--quaternary-color: #334155;
+	--link-color: #22d3ee;
+	--bg-color: #0a0e1a;
+	--bg-panel: #0d1220;
+	--bg-surface: #111827;
+	--border-color: #1e293b;
 	/* ---------------------- */
 
 	/* ------- fonts ------- */
-	--primary-font: "Heebo", sans-serif;
-	--secondary-font: "Roboto", sans-serif;
+	--primary-font: "Inter", sans-serif;
+	--secondary-font: "Space Grotesk", sans-serif;
 	/* --------------------- */
 }

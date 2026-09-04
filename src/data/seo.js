@@ -2,36 +2,43 @@ const SEO = [
 	{
 		page: "home",
 		description:
-			"I am a backend developer with expertise in Node.js. I have experience in building scalable, secure and reliable web applications using various frameworks and technologies.",
-		keywords: ["Tharindu", "Tharindu N", "Tharindu Nayanajith"],
+			"Farel Reski Aditiya, Indonesian developer and high-school student building Go, Python, and web projects across networking, automation, and IoT.",
+		keywords: [
+			"Farel",
+			"Farel Reski Aditiya",
+			"FarelRA",
+			"Indonesian developer",
+			"Go developer",
+			"IoT",
+		],
 	},
 
 	{
 		page: "about",
 		description:
-			"I am a backend developer with expertise in Node.js. I have experience in building scalable, secure and reliable web applications using various frameworks and technologies.",
-		keywords: ["Tharindu", "Tharindu N", "Tharindu Nayanajith"],
+			"About Farel Reski Aditiya, a student and developer from Yogyakarta, Indonesia. Golang enthusiast, Linux homelab tinkerer, IoT maker, and GrowMate project lead.",
+		keywords: ["Farel", "Farel Reski Aditiya", "FarelRA", "about"],
 	},
 
 	{
 		page: "articles",
 		description:
-			"Chronological collection of my long-form thoughts on programming, leadership, product design, and more.",
-		keywords: ["Tharindu", "Tharindu N", "Tharindu Nayanajith"],
+			"Writings and write-ups by Farel on projects, systems, and ideas, from the GrowMate IoT ecosystem to self-hosted infrastructure.",
+		keywords: ["Farel", "FarelRA", "articles", "blog"],
 	},
 
 	{
 		page: "projects",
 		description:
-			"I've worked on a variety of projects over the years and I'm proud of the progress I've made. Many of these projects are open-source and available for others to explore and contribute to.",
-		keywords: ["Tharindu", "Tharindu N", "Tharindu Nayanajith"],
+			"Projects by Farel Reski Aditiya, open-source Go, Python, and web apps covering networking, WhatsApp automation, IoT, and more.",
+		keywords: ["Farel", "FarelRA", "projects", "open source"],
 	},
 
 	{
 		page: "contact",
 		description:
-			"If you're interested in collaborating on a project, feel free to reach out to me. I'm always open to new ideas and opportunities.",
-		keywords: ["Tharindu", "Tharindu N", "Tharindu Nayanajith"],
+			"Get in touch with Farel Reski Aditiya for collaboration, questions, or project opportunities.",
+		keywords: ["Farel", "FarelRA", "contact"],
 	},
 ];
 
